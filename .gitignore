@@ -1,0 +1,9 @@
+# latex output files to ignore
+*.aux
+*.bbl
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.fdb_latexmk
+*.pdf
