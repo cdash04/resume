@@ -3,7 +3,7 @@ name: Create and release PDF
 on:
   push:
     tags:
-      - 'v*'
+      - 'pdf'
 
 jobs:
   build_latex:
