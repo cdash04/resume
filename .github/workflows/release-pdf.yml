@@ -2,6 +2,8 @@ name: Create and release PDF
 
 on:
   push:
+    branches:
+      - master
     tags:
       - 'pdf'
 
@@ -22,3 +24,4 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           files: resume_cv.pdf
+          tag_name: pdf
