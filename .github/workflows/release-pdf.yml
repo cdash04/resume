@@ -3,7 +3,7 @@ name: Create and release PDF
 on:
   push:
     branches:
-      - master
+      - main
     tags:
       - 'pdf'
   workflow_dispatch:
